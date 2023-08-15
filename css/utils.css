@@ -1,0 +1,26 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    margin-top: 30px;
+    font-size: 4em;
+}
+.float{
+    float: left;
+}
+.headings{
+    font-size: 2rem;
+    margin-top: 50px;
+    color:  #105c5c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+    color:  #105c5c;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}

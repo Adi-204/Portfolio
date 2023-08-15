@@ -2,4 +2,13 @@
     .list{
         flex-direction: column;
     }
+    header{
+        height: 62.5vh;
+    }
+    .intro{
+        font-size: 15px;
+    }
+    .flex p{
+        font-size: 15px;
+    }
 }

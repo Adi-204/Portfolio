@@ -9,20 +9,23 @@
 body{
     background-color: #ADC4CE;
 }
-
+header {
+    height: 100vh;
+    background-color: #279EFF;
+}
 .container h1{
     font-size: 6rem;
-    color:  #105c5c;
+    color:  #192222;
     font-family: "Sacramento", cursive;
 }
 .container h2{
     margin-bottom: 40px;
     font-size: 4rem;
-    color:  #105c5c;
+    color:  #192222;
     font-family: "Sacramento", cursive;
 }
 .box img{
-    width: 50vw;
+    width: 56.5vw;
 }
 .profile img{
     margin-top: 60px;
@@ -41,10 +44,11 @@ body{
     margin-top: 25px;
     font-size: 22px;
 }
-main{
-    height: 400vh;
+footer{
+    height: 15vh;
+    background-color: #279EFF;
+    margin-top: 35px;
 }
-
 .flex p{
     margin: auto;
     font-family: 'Barlow', sans-serif;
@@ -67,4 +71,21 @@ main{
 }
 .work h3{
     margin-top: 20px;
+}
+.about p{
+    margin-top: 20px;
+}
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.list li{
+    list-style: none;
+}
+footer p{
+    padding-top: 40px;
+    color:  #192222;
+    font-family: 'Roboto', sans-serif;
+
 }
